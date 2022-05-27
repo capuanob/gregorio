@@ -1,0 +1,9 @@
+image: ghcr.io/capuanob/gregorio-fuzz:latest
+project: gregorio
+target: gregorio-fuzz
+tests:
+    - file://corpus
+
+cmds:
+  - cmd: /gregorio --stdin --stdout
+    afl: true

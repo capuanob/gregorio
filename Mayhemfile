@@ -1,7 +1,6 @@
-image: ghcr.io/capuanob/gregorio-fuzz:latest
 project: gregorio
 target: gregorio-fuzz
-tests:
+testsuite:
     - file://corpus
 
 cmds:
